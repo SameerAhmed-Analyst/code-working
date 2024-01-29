@@ -6,7 +6,7 @@ import { Card } from "@tremor/react";
 import { Chart } from "chart.js/auto";
 import { CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 
-export const fetchCache = 'force-dynamic'
+export const dynamic = 'force-dynamic'
 
 export interface Daum {
   id: number;
