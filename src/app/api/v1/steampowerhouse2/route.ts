@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
 import { config } from "@/db/dbconfig"
 const sql = require('mssql')
+export const fetchCache = 'force-no-store'
 
 export const GET = async () => {
 
